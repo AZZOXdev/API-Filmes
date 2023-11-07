@@ -4,11 +4,13 @@ import {BiCameraMovie, BiSearchAlt2} from 'react-icons/bi';
 const Navbar = () => {
 <nav id="navbar">
           <h2>
-            <Link to="/" >MoviesLib</Link>
+            <Link to="/"><BiCameraMovie />MoviesLib</Link>
           </h2>
           <form>
             <input type="text" placeholder="Busque um filme"/>
-            <button type="submit"></button>
+            <button type="submit">
+              <BiSearchAlt2 />
+            </button>
           </form>
 </nav>
 };
