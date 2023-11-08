@@ -16,7 +16,11 @@ const Home = () => {
     getTopRatedMovies(topRatedUrl);
   }, []);
 
-  return <div>Home</div>
+  return <div>
+    {topMovies && topMovies.map((movie) =>{
+      movie.title;
+      })}
+  </div>
 }
 
 export default Home
